@@ -9,13 +9,13 @@
 </head>
 <body>
 <div class="form-style-5">
-<form>
+<form  name="myForm" method="post">
 <fieldset>
-<legend><span class="number">1</span> Candidate Information</legend>
-<input type="text" name="field1" placeholder="Your Name *">
-<input type="email" name="field2" placeholder="Your Email *">
-<textarea name="field3" placeholder="About yourself"></textarea>
-   <button onclick="myFunction()">Submit</button> 
+<legend><span class="number">1</span> Candidate Info</legend>
+<input type="text" name="field1" id="userid" placeholder="Your Name *">
+<input type="email" name="field2" id="email" placeholder="Your Email *">
+
+    <input type="button" class="btn" id="submit" onclick="check(this.form)" value="Submit"/>
 </fieldset>
 <!-- <input type="submit" value="Submit" onclick="myFunction()"/> -->
 </form>
