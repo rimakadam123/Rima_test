@@ -10,22 +10,16 @@
     font-family: Georgia, "Times New Roman", Times, serif;
 }
 .form-style-5 fieldset{
-    border: none;
+    border: 2px solid green;
 }
 .form-style-5 legend {
     font-size: 1.4em;
     margin-bottom: 10px;
 }
-
 .form-style-5 input[type="text"],
-.form-style-5 input[type="date"],
-.form-style-5 input[type="datetime"],
-.form-style-5 input[type="email"],
-.form-style-5 input[type="number"],
-.form-style-5 input[type="search"],
 
-.form-style-5 textarea,
-.form-style-5 select {
+.form-style-5 input[type="email"]
+ {
     font-family: Georgia, "Times New Roman", Times, serif;
     background: rgba(255,255,255,.1);
     border: none;
@@ -45,16 +39,8 @@
     margin-bottom: 30px;
    
 }
-.form-style-5 input[type="text"]:focus,
-.form-style-5 input[type="date"]:focus,
-.form-style-5 input[type="datetime"]:focus,
-.form-style-5 input[type="email"]:focus,
-.form-style-5 input[type="number"]:focus,
-.form-style-5 input[type="search"]:focus,
-.form-style-5 input[type="time"]:focus,
-.form-style-5 input[type="url"]:focus,
-.form-style-5 textarea:focus,
-.form-style-5 select:focus{
+.form-style-5 input[type="text"]:focus
+
     background: #d2d9dd;
 }
 
@@ -71,26 +57,49 @@
     text-shadow: 0 1px 0 rgba(255,255,255,0.2);
     border-radius: 15px 15px 15px 0px;
 }
-
-.form-style-5 button[type="submit"]
-{
-    position: relative;
-    display: block;
-    padding: 19px 39px 18px 39px;
-    color: #FFF;
-    margin: 0 auto;
-    background: #1abc9c;
-    font-size: 18px;
+.btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
     text-align: center;
-    font-style: normal;
-    width: 100%;
-    border: 1px solid #16a085;
-    border-width: 1px 1px 3px;
-    margin-bottom: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius:5px;
+
 }
-.form-style-5 input[type="submit"]:hover,
-.form-style-5 input[type="button"]:hover
-{
-    background: #109177;
+
+.btn:hover {
+  color: #FFF;
+  background: #900;
 }
+.btn:focus {
+  outline: none;
+}
+
+/* .form-style-5 input[type="submit"], */
+/* .form-style-5 input[type="button"] */
+/* { */
+    /* position: relative; */
+    /* display: block; */
+    /* padding: 19px 39px 18px 39px; */
+    /* color: #FFF; */
+    /* margin: 0 auto; */
+    /* background: #1abc9c; */
+    /* font-size: 18px; */
+    /* text-align: center; */
+    /* font-style: normal; */
+    /* width: 100%; */
+    /* border: 1px solid #16a085; */
+    /* border-width: 1px 1px 3px; */
+    /* margin-bottom: 10px; */
+/* } */
+/* .form-style-5 input[type="submit"]:hover, */
+/* .form-style-5 input[type="button"]:hover */
+/* { */
+    /* background: #109177; */
+/* } */
 </style>
