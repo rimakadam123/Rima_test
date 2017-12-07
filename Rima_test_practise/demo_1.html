@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
   <title></title>
-   <head>
 <link rel="stylesheet" type="text/css" href="test.css">
 <script type="text/javascript" src="test.js"></script>
 </head> 
-</head>
-<body>
+<body class="bg">
 <div class="form-style-5">
 <form  name="myForm" method="post">
 <fieldset>
 <legend><span class="number">1</span> Candidate Info</legend>
-<input type="text" name="field1" id="userid" placeholder="Your Name *">
-<input type="email" name="field2" id="email" placeholder="Your Email *">
+<input type="text" name="field1" id="userid" placeholder="Your Name *" required>
+<input type="email" name="field2" id="email" placeholder="Your Email *" required>
 
     <input type="button" class="btn" id="submit" onclick="check(this.form)" value="Submit"/>
 </fieldset>

@@ -1,4 +1,18 @@
 <style type="text/css">
+
+body, html {
+    height: 100%;
+	margin:0;
+}
+.bg {
+    background-image: url("Tulips.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-attachment:fixed;
+    background-size: cover;
+}
+
 .form-style-5{
     max-width: 500px;
     padding: 10px 20px;
@@ -7,7 +21,7 @@
     padding: 20px;
     background: #f4f7f8;
     border-radius: 8px;
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: Georgia, "Times New Roman";
 }
 .form-style-5 fieldset{
     border: 2px solid green;
@@ -22,7 +36,7 @@
 .form-style-5 input[type="email"],
 .form-style-5 input[type="number"]
 .form-style-5 select {
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: Georgia, "Times New Roman";
     background: rgba(255,255,255,.1);
     border: none;
     border-radius: 4px;
@@ -45,10 +59,10 @@
 .form-style-5 input[type="number"]:focus,
     background: #d2d9dd;
 }
-.form-style-5 select{
-    -webkit-appearance: menulist-button;
-    height:35px;
-}
+/* .form-style-5 select{ */
+    /* -webkit-appearance: menulist-button; */
+    /* height:35px; */
+/* } */
 .form-style-5 .number {
     background: #1abc9c;
     color: #fff;
@@ -74,16 +88,17 @@
     margin: 4px 2px;
     cursor: pointer;
 	border-radius:5px;
-
+  outline: none;
+box-shadow: 3px 3px 4px 3px #ccc;
 }
 
 .btn:hover {
   color: #FFF;
   background: #900;
 }
-.btn:focus {
-  outline: none;
-}
+/* .btn:focus { */
+  /* outline: 0; */
+/* } */
 
 /* .form-style-5 input[type="submit"], */
 /* .form-style-5 input[type="button"] */
