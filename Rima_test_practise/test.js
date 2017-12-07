@@ -18,6 +18,8 @@ function check(form)
    else
    {
     alert("Error Email or Username");
+	clearInputs();
+		losefocus();
     }
 
 function clearInputs() {
@@ -27,6 +29,8 @@ function clearInputs() {
 	
 	function losefocus() {
     document.getElementById("submit").blur();
+	document.getElementById("userid").focus();
 }
+
 	
 }
