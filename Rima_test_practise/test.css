@@ -59,10 +59,10 @@ body, html {
 .form-style-5 input[type="number"]:focus,
     background: #d2d9dd;
 }
-/* .form-style-5 select{ */
-    /* -webkit-appearance: menulist-button; */
-    /* height:35px; */
-/* } */
+.form-style-5 select{
+    -webkit-appearance: menulist-button;
+    height:35px;
+}
 .form-style-5 .number {
     background: #1abc9c;
     color: #fff;
